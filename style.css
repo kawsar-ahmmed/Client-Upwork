@@ -82,3 +82,21 @@ section {
 .about-right {
   padding-top: 120px;
 }
+/* About end */
+
+.item-head {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.items {
+  width: 48%;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 15px 15px 30px rgba(87, 87, 87, 0.13);
+  margin: 30px;
+}
+.items img {
+  width: 100%;
+}
