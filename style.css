@@ -19,6 +19,12 @@ h2 {
   color: #575757;
 }
 
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
 p {
   font-size: 16px;
   font-weight: 400;
@@ -53,6 +59,10 @@ section {
 
 .left-side p {
   width: 80%;
+}
+
+.right-side {
+  padding-left: 5%;
 }
 
 .main-button a {
@@ -93,10 +103,25 @@ section {
 .items {
   width: 48%;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 15px 15px 30px rgba(87, 87, 87, 0.13);
   margin: 30px;
 }
 .items img {
   width: 100%;
+}
+
+/* items end */
+
+.countr-items {
+  width: 48%;
+  text-align: center;
+}
+
+.counter-list {
+  width: 92%;
+  margin: auto;
+  box-shadow: 15px 15px 30px rgba(87, 87, 87, 0.13);
+  border-radius: 8px;
+  padding: 30px;
 }
