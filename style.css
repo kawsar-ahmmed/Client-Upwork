@@ -45,7 +45,9 @@ section {
 }
 
 .word-color {
-  color: #ff1e1e;
+  background-image: linear-gradient(#fba24f, #ff1e1e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .section-flax {
@@ -124,4 +126,24 @@ section {
   box-shadow: 15px 15px 30px rgba(87, 87, 87, 0.13);
   border-radius: 8px;
   padding: 30px;
+}
+
+/* counter end */
+.footer-main {
+  margin-top: 80px;
+}
+
+.footer-info {
+  text-align: center;
+  background: #000;
+  padding: 20px;
+}
+
+.footer-info h4 {
+  color: #5b5b5b;
+  font-size: 28px;
+}
+
+.footer-info p {
+  color: #fff;
 }
