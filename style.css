@@ -147,3 +147,49 @@ section {
 .footer-info p {
   color: #fff;
 }
+
+/* order list */
+
+.order-list {
+  width: 48%;
+  padding: 30px;
+}
+
+.order-list img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.order-button {
+  padding-top: 60px;
+}
+
+.order-button a {
+  padding: 22px 40px;
+  border-radius: 6px;
+  background-image: linear-gradient(#fba24f, #ff1e1e);
+  color: #fff;
+}
+
+/*  big banner */
+
+.baner-info {
+  width: 60%;
+  text-align: center;
+  padding: 100px 80px;
+  margin: auto;
+}
+
+.baner-info h1 {
+  background-image: linear-gradient(#fba24f, #ff1e1e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.baner-info p {
+  color: #fff;
+}
+.big-banner {
+  margin-top: 100px;
+  background-image: url(images/Project\ Cover4.png);
+}
