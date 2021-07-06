@@ -55,8 +55,9 @@ section {
 }
 
 .left-side {
-  padding-top: 120px;
+  padding-top: 25px;
   padding-left: 5%;
+  width: 48%;
 }
 
 .left-side p {
@@ -65,6 +66,11 @@ section {
 
 .right-side {
   padding-left: 5%;
+  width: 48%;
+}
+
+.right-side img {
+  width: 100%;
 }
 
 .main-button a {
@@ -86,8 +92,7 @@ section {
 }
 
 .about-left img {
-  width: 338px;
-  padding-left: 140px;
+  padding-left: 40px;
   padding-top: 40px;
 }
 
@@ -111,6 +116,7 @@ section {
 }
 .items img {
   width: 100%;
+  border-radius: 10px;
 }
 
 /* items end */
